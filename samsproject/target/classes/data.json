@@ -1,0 +1,118 @@
+{
+  "parent" : "P1",
+  "name" : "Alice Johnson",
+  "email" : "alice.johnson@example.com",
+  "address" : {
+    "street" : "789 Maple St",
+    "city" : "Metropolis",
+    "state" : "NY",
+    "zip" : "10001"
+  },
+  "phone" : "555-6789",
+  "registeredAt" : "2023-01-15T08:00:00Z",
+  "User" : [ {
+    "_id" : "U001",
+    "userId" : "U001",
+    "name" : "Alice Johnson",
+    "email" : "alice.johnson@example.com",
+    "country" : "US",
+    "address" : {
+      "street" : "789 Maple St",
+      "city" : "Metropolis",
+      "state" : "NY",
+      "zip" : "10001"
+    },
+    "phone" : "555-6789",
+    "registeredAt" : "2023-01-15T08:00:00Z",
+    "purchases" : [ {
+      "productId" : "P001",
+      "purchaseDate" : "2023-01-20T10:00:00Z",
+      "quantity" : 1,
+      "totalPrice" : 999.99
+    }, {
+      "productId" : "P003",
+      "purchaseDate" : "2023-02-15T12:30:00Z",
+      "quantity" : 2,
+      "totalPrice" : 99.98
+    } ],
+    "ParentId" : "P1"
+  }, {
+    "_id" : "669898043fc6f3e43f1c9838",
+    "userId" : "U002",
+    "name" : "Bob Smith",
+    "email" : "bob.smith@example.com",
+    "country" : "China",
+    "address" : {
+      "street" : "456 Pine St",
+      "city" : "Smallville",
+      "state" : "KS",
+      "zip" : "67524"
+    },
+    "phone" : "555-1234",
+    "registeredAt" : "2023-02-20T10:30:00Z",
+    "purchases" : [ {
+      "productId" : "P002",
+      "purchaseDate" : "2023-03-01T14:00:00Z",
+      "quantity" : 1,
+      "totalPrice" : 699.99
+    }, {
+      "productId" : "P004",
+      "purchaseDate" : "2023-04-10T16:45:00Z",
+      "quantity" : 1,
+      "totalPrice" : 199.99
+    } ],
+    "ParentId" : "P1"
+  }, {
+    "_id" : "U001",
+    "userId" : "U001",
+    "name" : "Alice Johnson",
+    "email" : "alice.johnson@example.com",
+    "country" : "US",
+    "address" : {
+      "street" : "789 Maple St",
+      "city" : "Metropolis",
+      "state" : "NY",
+      "zip" : "10001"
+    },
+    "phone" : "555-6789",
+    "registeredAt" : "2023-01-15T08:00:00Z",
+    "purchases" : [ {
+      "productId" : "P001",
+      "purchaseDate" : "2023-01-20T10:00:00Z",
+      "quantity" : 1,
+      "totalPrice" : 999.99
+    }, {
+      "productId" : "P003",
+      "purchaseDate" : "2023-02-15T12:30:00Z",
+      "quantity" : 2,
+      "totalPrice" : 99.98
+    } ],
+    "ParentId" : "P1"
+  }, {
+    "_id" : "669898043fc6f3e43f1c9838",
+    "userId" : "U002",
+    "name" : "Bob Smith",
+    "email" : "bob.smith@example.com",
+    "country" : "China",
+    "address" : {
+      "street" : "456 Pine St",
+      "city" : "Smallville",
+      "state" : "KS",
+      "zip" : "67524"
+    },
+    "phone" : "555-1234",
+    "registeredAt" : "2023-02-20T10:30:00Z",
+    "purchases" : [ {
+      "productId" : "P002",
+      "purchaseDate" : "2023-03-01T14:00:00Z",
+      "quantity" : 1,
+      "totalPrice" : 699.99
+    }, {
+      "productId" : "P004",
+      "purchaseDate" : "2023-04-10T16:45:00Z",
+      "quantity" : 1,
+      "totalPrice" : 199.99
+    } ],
+    "ParentId" : "P1"
+  } ]
+}
